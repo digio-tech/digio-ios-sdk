@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DigioEsignSDK-Swift.h</key>
 		<data>
-		XwfBk4iRro2QYXVo1rcPOOqVx1Q=
+		xwkKKmgl5fUplevlQrYAY9SZ+d4=
 		</data>
 		<key>Headers/DigioEsignSDK.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UWS2yKcZv9gaXGEcwJmG+7EjMoQ=
+		ELKTdljNH8fovJMrldh8Lisffd8=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tqAJLhohhjOT4SuDoZQE0lfk31o=
+		aNk43x8GR+mH0GZd9JZRGFP+yrY=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SFaCLqlsp4dLN8bGCV8IMdHV9Is=
+		9ZVzShzwyC/VN1Xp512lRZnYLrU=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ouJDq5Bfdr5gGc0sFy5bFiVlLWs=
+		3uqfNyhnby21Pp/77NIrtnlGB7g=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SFaCLqlsp4dLN8bGCV8IMdHV9Is=
+		9ZVzShzwyC/VN1Xp512lRZnYLrU=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qBlAkGeq4GgbdbYOk87jTo8VDWs=
+		L5xiNEZ4CO/qLAVRIeDHvXdwXZU=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tqAJLhohhjOT4SuDoZQE0lfk31o=
+		aNk43x8GR+mH0GZd9JZRGFP+yrY=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CbBnd6YXPr4ONpFQqXe3y7oVElo=
+		yMu+yVPbxYwN08qz4J8hgGWJImk=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		C3e6Y3KuFfQYlKLE+S7wK2nJQ48=
+		fsycqS2zDBXQ/FAlFHyRv9dogk0=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CbBnd6YXPr4ONpFQqXe3y7oVElo=
+		yMu+yVPbxYwN08qz4J8hgGWJImk=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qwwZdrQiwA6Yjm2RKpCtdpqQITE=
+		Zu9HMcc1mR48iG8zwx//i9wZTrI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LRWt1aPlqGvCAahuKP+dBVW0hFkWL3+YcrN5HUBHej4=
+			vRZDvXf0ZdPxsUQljRgjUzZgJEv3TrOC6Hqi8ISIFXs=
 			</data>
 		</dict>
 		<key>Headers/DigioEsignSDK.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fH6xMiG0i9cno4ave1G1G+lOS3i6nsGxW03uAcJ0cOM=
+			3zap2BcYlpd7vU0Xusi7ZaJuW0Fv85lPUS6dCzPCgPA=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			syLvAhq8yF/c0lZ2vBwnOZaz3ETXO2EXjEMBHvvFStI=
+			1cOvts6xlOpFYAehXZdpqlDFcS0fnh1mXYL92UgNSwI=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ot7v9+ALfLsu1J6IBeyJ4Ol/CT7D/jK2xhl8OHdcWDA=
+			jBtU2jMjfINd40yE7ORyKs93JfMZUE1nk+SeTldI150=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			syLvAhq8yF/c0lZ2vBwnOZaz3ETXO2EXjEMBHvvFStI=
+			1cOvts6xlOpFYAehXZdpqlDFcS0fnh1mXYL92UgNSwI=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7sweuTMSvswKanQIQXxME4bzA0iNiIWM02X1vaarWmo=
+			ALpJ+Kv+98qM6xuKiGi95A1Ib3rHpADiSl7jfBvbaOE=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fH6xMiG0i9cno4ave1G1G+lOS3i6nsGxW03uAcJ0cOM=
+			3zap2BcYlpd7vU0Xusi7ZaJuW0Fv85lPUS6dCzPCgPA=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ptuuo7HAO1NyeBHtuJMNc6/mYzsWonftX9+n+UPeZsk=
+			eQhZbWbzCqCztFVVHSLz+umP/kX2cfCB5ZJL9/SyJJg=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ech5GG72gKxVPL2P0sqK7GBdWqcmZu4MbNCixoTsVA0=
+			mK/sa9ul8w3Zv207R56lGKTQOCRsoAHUAzQlhw/VaTg=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ptuuo7HAO1NyeBHtuJMNc6/mYzsWonftX9+n+UPeZsk=
+			eQhZbWbzCqCztFVVHSLz+umP/kX2cfCB5ZJL9/SyJJg=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W3HPNP6wYzQaVIUmXZvloeE9MqVAE8ux2yKnRkt+ZiI=
+			pxPzH0nL3uc4aFDQmFAiMKvHe4IR2BcLnLzW3Vrx6LA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

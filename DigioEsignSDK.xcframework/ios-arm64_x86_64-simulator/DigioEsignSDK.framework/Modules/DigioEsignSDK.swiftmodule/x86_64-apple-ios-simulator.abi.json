@@ -1,9 +1,299 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "DigioEsignSDK",
+    "printedName": "DigioEsignSDK",
     "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DigioUtils",
+        "printedName": "DigioUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getUrlForIntent",
+            "printedName": "getUrlForIntent(scheme:deepLinkUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A5UtilsC15getUrlForIntent6scheme08deepLinkF0S2SSg_AGtFZ",
+            "mangledName": "$s13DigioEsignSDK0A5UtilsC15getUrlForIntent6scheme08deepLinkF0S2SSg_AGtFZ",
+            "moduleName": "DigioEsignSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromNSDictionary",
+            "printedName": "fromNSDictionary(_:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A5UtilsC16fromNSDictionary_4typexSo0F0C_xmtKSeRzSERzlFZ",
+            "mangledName": "$s13DigioEsignSDK0A5UtilsC16fromNSDictionary_4typexSo0F0C_xmtKSeRzSERzlFZ",
+            "moduleName": "DigioEsignSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromJSONData",
+            "printedName": "fromJSONData(_:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A5UtilsC12fromJSONData_4typex10Foundation4DataV_xmtKSeRzSERzlFZ",
+            "mangledName": "$s13DigioEsignSDK0A5UtilsC12fromJSONData_4typex10Foundation4DataV_xmtKSeRzSERzlFZ",
+            "moduleName": "DigioEsignSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toJSONData",
+            "printedName": "toJSONData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A5UtilsC10toJSONDatay10Foundation4DataVxKSeRzSERzlFZ",
+            "mangledName": "$s13DigioEsignSDK0A5UtilsC10toJSONDatay10Foundation4DataVxKSeRzSERzlFZ",
+            "moduleName": "DigioEsignSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toNSDictionary",
+            "printedName": "toNSDictionary(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A5UtilsC14toNSDictionaryySo0F0CxKSeRzSERzlFZ",
+            "mangledName": "$s13DigioEsignSDK0A5UtilsC14toNSDictionaryySo0F0CxKSeRzSERzlFZ",
+            "moduleName": "DigioEsignSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readJsonString",
+            "printedName": "readJsonString(_:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A5UtilsC14readJsonString_4typexSgSS_xmtSeRzSERzlFZ",
+            "mangledName": "$s13DigioEsignSDK0A5UtilsC14readJsonString_4typexSgSS_xmtSeRzSERzlFZ",
+            "moduleName": "DigioEsignSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13DigioEsignSDK0A5UtilsC",
+        "mangledName": "$s13DigioEsignSDK0A5UtilsC",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
       {
         "kind": "Import",
         "name": "Foundation",
@@ -383,7 +673,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "DigioEsignDelegate",
-                "printedName": "DigioEsignSDK.DigioEsignDelegate",
+                "printedName": "any DigioEsignSDK.DigioEsignDelegate",
                 "usr": "s:13DigioEsignSDK0aB8DelegateP"
               }
             ],
@@ -490,6 +780,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -669,6 +975,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -795,6 +1115,39 @@
             "moduleName": "DigioEsignSDK"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DigioEsignSDK.DigioEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DigioEnvironment",
+                    "printedName": "DigioEsignSDK.DigioEnvironment",
+                    "usr": "s:13DigioEsignSDK0A11EnvironmentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DigioEsignSDK0A11EnvironmentO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13DigioEsignSDK0A11EnvironmentO8rawValueACSgSS_tcfc",
+            "moduleName": "DigioEsignSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -832,39 +1185,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "DigioEsignSDK.DigioEnvironment?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DigioEnvironment",
-                    "printedName": "DigioEsignSDK.DigioEnvironment",
-                    "usr": "s:13DigioEsignSDK0A11EnvironmentO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13DigioEsignSDK0A11EnvironmentO8rawValueACSgSS_tcfc",
-            "mangledName": "$s13DigioEsignSDK0A11EnvironmentO8rawValueACSgSS_tcfc",
-            "moduleName": "DigioEsignSDK",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -876,6 +1196,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1017,6 +1351,32 @@
         "moduleName": "DigioEsignSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigioEsignSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -1034,48 +1394,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 4691,
-      "length": 5,
-      "value": "\"ENA\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 4731,
-      "length": 4,
-      "value": "\"AP\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 4916,
-      "length": 26,
-      "value": "\"https:\/\/gateway.digio.in\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 4987,
-      "length": 22,
-      "value": "\"https:\/\/ext.digio.in\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioBuilder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5392,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioBuilder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5492,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 507,
@@ -1090,1012 +1408,46 @@
       "value": "\"Back\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1031,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1063,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1074,
-      "length": 2,
-      "value": "80"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1086,
-      "length": 2,
-      "value": "25"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1129,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1187,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1296,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1559,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1760,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2072,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2145,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2203,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/AvailableUpiApp.swift",
       "kind": "StringLiteral",
-      "offset": 2349,
-      "length": 44,
-      "value": "\"var meta = document.createElement('meta');\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2408,
-      "length": 25,
-      "value": "\"meta.name = 'viewport';\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2448,
-      "length": 94,
-      "value": "\"meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2557,
-      "length": 54,
-      "value": "\"var head = document.getElementsByTagName('head')[0];\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2622,
-      "length": 25,
-      "value": "\"head.appendChild(meta);\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2770,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2836,
-      "length": 13,
-      "value": "\"iosListener\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2893,
-      "length": 24,
-      "value": "\"iosStateChangeListener\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2961,
-      "length": 24,
-      "value": "\"iosRedirectionListener\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3665,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4884,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 5422,
-      "length": 4,
-      "value": "0.01"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 5429,
-      "length": 4,
-      "value": "3.14"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5605,
-      "length": 6,
-      "value": "\"logo\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5818,
+      "offset": 418,
       "length": 10,
-      "value": "\"token_id\""
+      "value": "\"app_name\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/AvailableUpiApp.swift",
       "kind": "StringLiteral",
-      "offset": 6090,
-      "length": 17,
-      "value": "\"ios_sdk_version\""
+      "offset": 461,
+      "length": 19,
+      "value": "\"mandate_available\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/AvailableUpiApp.swift",
       "kind": "StringLiteral",
-      "offset": 6168,
+      "offset": 508,
       "length": 14,
-      "value": "\"redirect_url\""
+      "value": "\"package_name\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/AvailableUpiApp.swift",
       "kind": "StringLiteral",
-      "offset": 6186,
-      "length": 27,
-      "value": "\"https:\/\/digio-redirect.in\""
+      "offset": 546,
+      "length": 9,
+      "value": "\"handles\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6287,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/AvailableUpiApp.swift",
       "kind": "StringLiteral",
-      "offset": 6396,
-      "length": 5,
-      "value": "\"dg_\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6616,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "Dictionary",
-      "offset": 6779,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6867,
-      "length": 15,
-      "value": "\"PRIMARY_COLOR\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6991,
-      "length": 13,
-      "value": "\"FONT_FAMILY\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7103,
+      "offset": 579,
       "length": 10,
-      "value": "\"FONT_URL\""
+      "value": "\"logo_url\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/AvailableUpiApp.swift",
       "kind": "StringLiteral",
-      "offset": 7215,
-      "length": 13,
-      "value": "\"FONT_FORMAT\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "Array",
-      "offset": 7356,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7489,
-      "length": 7,
-      "value": "\"theme\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7614,
-      "length": 6,
-      "value": "\"~-_.\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7741,
-      "length": 5,
-      "value": "\"ENA\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7787,
-      "length": 4,
-      "value": "\"AP\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7820,
-      "length": 26,
-      "value": "\"\/#\/enach-mandate-direct\/\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7886,
-      "length": 19,
-      "value": "\"\/#\/gateway\/login\/\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7991,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8049,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8135,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8219,
-      "length": 3,
-      "value": "\"&\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8223,
-      "length": 3,
-      "value": "\"?\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8254,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8310,
-      "length": 3,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8566,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8588,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8745,
-      "length": 18,
-      "value": "\"sendFailureEvent\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8868,
-      "length": 11,
-      "value": "\"sendEvent\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8977,
-      "length": 13,
-      "value": "\"funnelEvent\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9094,
-      "length": 16,
-      "value": "\"sendEsignEvent\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9134,
-      "length": 17,
-      "value": "\"start biometric\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9325,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "Array",
-      "offset": 9436,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9661,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9717,
-      "length": 6,
-      "value": "\"meta\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9766,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9799,
-      "length": 19,
-      "value": "\"Process completed\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9840,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9931,
-      "length": 6,
-      "value": "\"code\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 9976,
-      "length": 6,
-      "value": "\"code\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9995,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10027,
+      "offset": 612,
       "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10075,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10126,
-      "length": 13,
-      "value": "\"npci_txn_id\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10183,
-      "length": 13,
-      "value": "\"npci_txn_id\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10239,
-      "length": 24,
-      "value": "\"Authentication success\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10303,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10362,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10387,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10662,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10718,
-      "length": 6,
-      "value": "\"meta\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10767,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10799,
-      "length": 7,
-      "value": "\"txnId\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10849,
-      "length": 7,
-      "value": "\"txnId\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10908,
-      "length": 13,
-      "value": "\"npci_txn_id\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 10965,
-      "length": 13,
-      "value": "\"npci_txn_id\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11064,
-      "length": 9,
-      "value": "\"failure\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11098,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11181,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11236,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11288,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11336,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11387,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11442,
-      "length": 12,
-      "value": "\"error_code\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11527,
-      "length": 11,
-      "value": "\"CANCELLED\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11565,
-      "length": 8,
-      "value": "\"cancel\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11713,
-      "length": 19,
-      "value": "\"Cancelled By User\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11790,
-      "length": 13,
-      "value": "\"AUTH_FAILED\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 11944,
-      "length": 31,
-      "value": "\"Mandate Authentication Failed\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 12112,
-      "length": 15,
-      "value": "\"Unknown Error\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 12412,
-      "length": 32,
-      "value": "\"Mandate Authentication Failed.\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 13095,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13196,
-      "length": 67,
-      "value": "\"-------- digioWebView is nil ignore exception wraning -----------\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13454,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13663,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13681,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13699,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13719,
-      "length": 6,
-      "value": "\"code\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13841,
-      "length": 13,
-      "value": "\"npci_txn_id\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "Array",
-      "offset": 13982,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14220,
-      "length": 37,
-      "value": "\"Do you want to cancel this process?\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14267,
-      "length": 48,
-      "value": "\"You have not completed all the required steps.\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14329,
-      "length": 5,
-      "value": "\"Yes\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14348,
-      "length": 4,
-      "value": "\"No\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14966,
-      "length": 8,
-      "value": "\"cancel\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15103,
-      "length": 19,
-      "value": "\"Cancelled by user\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15134,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15275,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16452,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 17438,
-      "length": 13,
-      "value": "\"iosListener\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 17600,
-      "length": 18,
-      "value": "\"iosEsignListener\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17962,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18008,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18200,
-      "length": 27,
-      "value": "\"https:\/\/digio-redirect.in\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18831,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19040,
-      "length": 53,
-      "value": "\"Digio didFail to load \""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19092,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19131,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19213,
-      "length": 5,
-      "value": "-1021"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19223,
-      "length": 4,
-      "value": "-998"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19301,
-      "length": 74,
-      "value": "\"DigioWebviewError -->> \""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19336,
-      "length": 7,
-      "value": "\" message:- \""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19374,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19411,
-      "length": 5,
-      "value": "-1103"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19421,
-      "length": 5,
-      "value": "-1100"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19473,
-      "length": 40,
-      "value": "\"DigioError File Error -->> \""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19512,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19547,
-      "length": 5,
-      "value": "-1206"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19557,
-      "length": 5,
-      "value": "-1200"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19583,
-      "length": 28,
-      "value": "\"SSL Error -->> \""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19610,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19715,
-      "length": 9,
-      "value": "\"failure\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 19813,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 20043,
-      "length": 50,
-      "value": "\"Digio webview did fail load with error: \""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 20092,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20131,
-      "length": 5,
-      "value": "false"
+      "value": "\"scheme\""
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignConstants.swift",
@@ -2144,7 +1496,7 @@
       "kind": "StringLiteral",
       "offset": 515,
       "length": 7,
-      "value": "\"1.0.4\""
+      "value": "\"1.0.5\""
     }
   ]
 }

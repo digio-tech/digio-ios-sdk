@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "DigioEsignSDK"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "Digio eSign, Mandate SDK"
   spec.description  = <<-DESC
                         DigioEsignSDK is a swift client framework, which is design for digital signature, create mandate, Aadhaar base mandate etc

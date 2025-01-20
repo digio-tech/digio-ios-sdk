@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DigioEsignSDK-Swift.h</key>
 		<data>
-		7tq8m3M/nGlmrGV+nl+aH9zt+Gs=
+		iSE1J+lmWn3avEYcjDU/g9P7WYU=
 		</data>
 		<key>Headers/DigioEsignSDK.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v7fCtYdzfashH75kkUsAsyczFCs=
+		1VgnVmjuvhFZvUNR7pRg65P4Zaw=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		tqAJLhohhjOT4SuDoZQE0lfk31o=
+		aNk43x8GR+mH0GZd9JZRGFP+yrY=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		fF0VYkHzzXUj+WsIrawdDfVw320=
+		SHW58O3c2Hi8/TbaeY1zqeI1a5M=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		GZPHvQvmh9EUECFM13MG4r3PKLo=
+		k1j9aO21zB3/t8B1ANQ0fAh+53U=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fF0VYkHzzXUj+WsIrawdDfVw320=
+		SHW58O3c2Hi8/TbaeY1zqeI1a5M=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		63XJBto4shd7rGHYzcNHig4Ky3E=
+		BuQAmLM130G1sciASynxFN7NDqw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pDsVcKFxzMg5g5yc8HDAe9wV1x/0NArY8gAwvn74C9Q=
+			8fPgEVO0YidMbPkFvOTmSMUwQHwox3rVn11M/b33PPk=
 			</data>
 		</dict>
 		<key>Headers/DigioEsignSDK.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fH6xMiG0i9cno4ave1G1G+lOS3i6nsGxW03uAcJ0cOM=
+			3zap2BcYlpd7vU0Xusi7ZaJuW0Fv85lPUS6dCzPCgPA=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+OE6C2tUf+bSy8cSqW376nlAADfp7lYVRr6fcCvUOh8=
+			EtLamel1BZQdUQfQ0rRap612uGFhzc3pI+55xxAystM=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PhhNLE/uU3ykdYr6w72QvnKep0m4sAIFaauVBjoL5iA=
+			aPjr2vUjKouYjXczYft6Sm+HcwebDzVQg3gymfQtfPE=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+OE6C2tUf+bSy8cSqW376nlAADfp7lYVRr6fcCvUOh8=
+			EtLamel1BZQdUQfQ0rRap612uGFhzc3pI+55xxAystM=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WZVIm05NptgZsiTOlZ30dxVbTTUaT7jypZuJhDQ+ytQ=
+			Rnmdp1WFXqx/27gAYvcTh2L4/u4HRJtTA3vaQSx2c0g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
