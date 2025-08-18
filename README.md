@@ -45,4 +45,11 @@ extension YourViewController : DigioEsignDelegate {
 
 ```
 
+## Debug Symbols (Optional)
+
+If you want human-readable crash logs from DigioEsignSDK, please upload the provided dSYM file to your crash reporting service (e.g., Firebase Crashlytics, Sentry).
+
+- [Download DigioEsignSDK_dSYMs.zip](https://github.com/digio-tech/digio-ios-sdk/releases/latest/download/DigioEsignSDK_dSYMs.zip)
+
+**Note:** This is optional. Your app will work fine without it, but crash reports may contain obfuscated stack traces if dSYM is not uploaded.
 
