@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ucYcKyOt8tmRMFCWbES5jcwWDHg=
+		CvSG0fqk+CbjotqyLElAhouf1VI=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jM6ZniNpz+KxbrcHA5o8KOeg0fQ=
+		jizj4DuRBLH6uxNe46aQ6EkvBj4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fKChPjdihEAOEah5yP0uNPaFYnXOlE9M354StKhuYng=
+			R2bVHCds+kAYX0Ncqdu3IHvOfqA4Apl1zM+7fS9ZsyE=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yy+6zDpoHESmOa8oPCtvMaQ6MicMJoQNEBOzdorw6Vk=
+			KZ6Tqkw4GTMd8Nn+jdvyzqDoZTJuJSFRFl1yTpiyY6E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
