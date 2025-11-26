@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DigioEsignSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios12.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DigioEsignSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 @_exported import DigioEsignSDK
 import Foundation
 import JavaScriptCore
@@ -12,22 +12,32 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import _WebKit_SwiftUI
 @_hasMissingDesignatedInitializers public class DigioUtils {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getUrlForIntent(scheme: Swift.String?, deepLinkUrl: Swift.String?) -> Swift.String
+  #endif
   public static func fromNSDictionary<T>(_ dictionary: Foundation.NSDictionary, type: T.Type) throws -> T where T : Swift.Decodable, T : Swift.Encodable
   public static func fromJSONData<T>(_ data: Foundation.Data, type: T.Type) throws -> T where T : Swift.Decodable, T : Swift.Encodable
   public static func toJSONData<T>(_ x: T) throws -> Foundation.Data where T : Swift.Decodable, T : Swift.Encodable
   public static func toNSDictionary<T>(_ x: T) throws -> Foundation.NSDictionary where T : Swift.Decodable, T : Swift.Encodable
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func readJsonString<T>(_ jsonString: Swift.String, type: T.Type) -> T? where T : Swift.Decodable, T : Swift.Encodable
+  #endif
   @objc deinit
 }
 public class DigioBuilder {
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setLogo(logo: Swift.String?) -> DigioEsignSDK.DigioBuilder
+  #endif
   public func setEnvironment(environment: DigioEsignSDK.DigioEnvironment) -> DigioEsignSDK.DigioBuilder
   public func setDocumentId(documentId: Swift.String) -> DigioEsignSDK.DigioBuilder
   public func setIdentifier(identifier: Swift.String) -> DigioEsignSDK.DigioBuilder
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setTokenId(tokenId: Swift.String?) -> DigioEsignSDK.DigioBuilder
+  #endif
+  public func setGlobal(global: Swift.Bool) -> DigioEsignSDK.DigioBuilder
   public func withController(viewController: UIKit.UIViewController) -> DigioEsignSDK.DigioBuilder
   public func setServiceMode(serviceMode: DigioEsignSDK.DigioServiceMode) -> DigioEsignSDK.DigioBuilder
   public func setPrimaryColor(hexColor: Swift.String) -> DigioEsignSDK.DigioBuilder
@@ -42,7 +52,9 @@ public class DigioBuilder {
 }
 public enum DigioServiceMode : Swift.String {
   case OTP
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -51,7 +63,9 @@ public enum DigioServiceMode : Swift.String {
 public enum DigioEnvironment : Swift.String {
   case PRODUCTION
   case SANDBOX
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
