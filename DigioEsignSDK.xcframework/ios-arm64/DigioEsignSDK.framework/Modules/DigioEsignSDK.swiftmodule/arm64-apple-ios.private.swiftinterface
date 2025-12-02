@@ -28,6 +28,8 @@ public class DigioBuilder {
   public func setDocumentId(documentId: Swift.String) -> DigioEsignSDK.DigioBuilder
   public func setIdentifier(identifier: Swift.String) -> DigioEsignSDK.DigioBuilder
   public func setTokenId(tokenId: Swift.String?) -> DigioEsignSDK.DigioBuilder
+  public func setGlobal(global: Swift.Bool) -> DigioEsignSDK.DigioBuilder
+  public func setLocalUrl(localUrl: Swift.String) -> DigioEsignSDK.DigioBuilder
   public func withController(viewController: UIKit.UIViewController) -> DigioEsignSDK.DigioBuilder
   public func setServiceMode(serviceMode: DigioEsignSDK.DigioServiceMode) -> DigioEsignSDK.DigioBuilder
   public func setPrimaryColor(hexColor: Swift.String) -> DigioEsignSDK.DigioBuilder

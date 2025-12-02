@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		CvSG0fqk+CbjotqyLElAhouf1VI=
+		i+rraOSngYN/jpElToRRzebMHSg=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		SHW58O3c2Hi8/TbaeY1zqeI1a5M=
+		3EUkmEdsvUiPXWeiYU5pRauMlZ4=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		SHW58O3c2Hi8/TbaeY1zqeI1a5M=
+		3EUkmEdsvUiPXWeiYU5pRauMlZ4=
 		</data>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jizj4DuRBLH6uxNe46aQ6EkvBj4=
+		pEI/0irSykqVRdUAOG15WM/E/fA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R2bVHCds+kAYX0Ncqdu3IHvOfqA4Apl1zM+7fS9ZsyE=
+			OIvgY1J7TfqoiBJNXxW/tj0fmlcK9soUebuF/luAoMQ=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EtLamel1BZQdUQfQ0rRap612uGFhzc3pI+55xxAystM=
+			8Jr5vPIFAxRczCW1Y36iqpYmjqUM+PlRAuekxPdRJJE=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EtLamel1BZQdUQfQ0rRap612uGFhzc3pI+55xxAystM=
+			8Jr5vPIFAxRczCW1Y36iqpYmjqUM+PlRAuekxPdRJJE=
 			</data>
 		</dict>
 		<key>Modules/DigioEsignSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KZ6Tqkw4GTMd8Nn+jdvyzqDoZTJuJSFRFl1yTpiyY6E=
+			NBBUl63yJPR9p0/34sNipRjS+t8nBHdrXKQzVtJBuw0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

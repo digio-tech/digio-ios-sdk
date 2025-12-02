@@ -496,6 +496,60 @@
           },
           {
             "kind": "Function",
+            "name": "setGlobal",
+            "printedName": "setGlobal(global:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC9setGlobal6globalACSb_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC9setGlobal6globalACSb_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLocalUrl",
+            "printedName": "setLocalUrl(localUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DigioBuilder",
+                "printedName": "DigioEsignSDK.DigioBuilder",
+                "usr": "s:13DigioEsignSDK0A7BuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DigioEsignSDK0A7BuilderC11setLocalUrl05localG0ACSS_tF",
+            "mangledName": "$s13DigioEsignSDK0A7BuilderC11setLocalUrl05localG0ACSS_tF",
+            "moduleName": "DigioEsignSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "withController",
             "printedName": "withController(viewController:)",
             "children": [
@@ -1394,6 +1448,20 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 902,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioConfigFile.swift",
+      "kind": "BooleanLiteral",
+      "offset": 588,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 507,
@@ -1495,8 +1563,8 @@
       "filePath": "\/Users\/akash\/Digio_Projects\/iosesignsdk\/DigioEsignSDK\/DigioEsignConstants.swift",
       "kind": "StringLiteral",
       "offset": 515,
-      "length": 7,
-      "value": "\"1.0.9\""
+      "length": 8,
+      "value": "\"1.0.11\""
     }
   ]
 }
